@@ -8,10 +8,10 @@ basic.forever(function () {
         tinkercademy.LED(DigitalPin.P2, OnOff.On)
     } else {
         OLED.writeStringNewLine("Nu ma uda!")
-        tinkercademy.LED(DigitalPin.P3, OnOff.On)
+        tinkercademy.LED(DigitalPin.P8, OnOff.On)
     }
     basic.pause(500)
     tinkercademy.LED(DigitalPin.P2, OnOff.Off)
-    tinkercademy.LED(DigitalPin.P3, OnOff.Off)
+    tinkercademy.LED(DigitalPin.P8, OnOff.Off)
     OLED.clear()
 })
